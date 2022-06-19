@@ -1,54 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="2" total="5" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-06-11T17:09:26Z" name="Suite" finished-at="2022-06-11T17:09:26Z" duration-ms="54">
+  <suite started-at="2022-06-12T14:39:07Z" name="Suite" finished-at="2022-06-12T14:39:58Z" duration-ms="51226">
     <groups>
-      <group name="Sanity">
-        <method signature="CreditCardTestCases.CCTest1()[pri:0, instance:testNG.CreditCardTestCases@6337c201]" name="CCTest1" class="testNG.CreditCardTestCases"/>
-      </group> <!-- Sanity -->
     </groups>
-    <test started-at="2022-06-11T17:09:26Z" name="Test" finished-at="2022-06-11T17:09:26Z" duration-ms="54">
-      <class name="testNG.CreditCardTestCases">
-        <test-method signature="CCTest1()[pri:0, instance:testNG.CreditCardTestCases@6337c201]" started-at="2022-06-11T17:09:26Z" name="CCTest1" finished-at="2022-06-11T17:09:26Z" duration-ms="1" status="PASS">
+    <test started-at="2022-06-12T14:39:07Z" name="Test" finished-at="2022-06-12T14:39:58Z" duration-ms="51226">
+      <class name="testNGWebDriver.HomePageTest">
+        <test-method is-config="true" signature="setUP()[pri:0, instance:testNGWebDriver.HomePageTest@7ef27d7f]" started-at="2022-06-12T14:39:41Z" name="setUP" finished-at="2022-06-12T14:39:46Z" duration-ms="4904" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- CCTest1 -->
-      </class> <!-- testNG.CreditCardTestCases -->
-      <class name="testNG.LoanTestCases">
-        <test-method is-config="true" signature="BeforeTest1()[pri:0, instance:testNG.LoanTestCases@490caf5f]" started-at="2022-06-11T17:09:26Z" name="BeforeTest1" finished-at="2022-06-11T17:09:26Z" duration-ms="22" status="PASS">
+        </test-method> <!-- setUP -->
+        <test-method signature="test1()[pri:0, instance:testNGWebDriver.HomePageTest@7ef27d7f]" started-at="2022-06-12T14:39:46Z" name="test1" finished-at="2022-06-12T14:39:58Z" duration-ms="12122" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- BeforeTest1 -->
-        <test-method is-config="true" signature="BeforeMethod1()[pri:0, instance:testNG.LoanTestCases@490caf5f]" started-at="2022-06-11T17:09:26Z" name="BeforeMethod1" finished-at="2022-06-11T17:09:26Z" duration-ms="1" status="PASS">
+        </test-method> <!-- test1 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testNGWebDriver.HomePageTest@7ef27d7f]" started-at="2022-06-12T14:39:58Z" name="tearDown" finished-at="2022-06-12T14:39:58Z" duration-ms="227" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- BeforeMethod1 -->
-        <test-method signature="HomeLoanTest2()[pri:2, instance:testNG.LoanTestCases@490caf5f]" started-at="2022-06-11T17:09:26Z" name="HomeLoanTest2" finished-at="2022-06-11T17:09:26Z" duration-ms="0" status="PASS">
+        </test-method> <!-- tearDown -->
+      </class> <!-- testNGWebDriver.HomePageTest -->
+      <class name="testNGWebDriver.LoginTest">
+        <test-method is-config="true" signature="setUP()[pri:0, instance:testNGWebDriver.LoginTest@1205bd62]" started-at="2022-06-12T14:39:07Z" name="setUP" finished-at="2022-06-12T14:39:13Z" duration-ms="5975" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- HomeLoanTest2 -->
-        <test-method is-config="true" signature="AfterMethod1()[pri:0, instance:testNG.LoanTestCases@490caf5f]" started-at="2022-06-11T17:09:26Z" name="AfterMethod1" finished-at="2022-06-11T17:09:26Z" duration-ms="0" status="PASS">
+        </test-method> <!-- setUP -->
+        <test-method signature="test1(java.lang.String, java.lang.String)[pri:0, instance:testNGWebDriver.LoginTest@1205bd62]" started-at="2022-06-12T14:39:13Z" name="test1" finished-at="2022-06-12T14:39:25Z" duration-ms="11487" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Abc@xyz.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Abc@2345]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- AfterMethod1 -->
-        <test-method signature="HomeLoanTest1()[pri:3, instance:testNG.LoanTestCases@490caf5f]" started-at="2022-06-11T17:09:26Z" name="HomeLoanTest1" finished-at="2022-06-11T17:09:26Z" duration-ms="1" status="PASS">
+        </test-method> <!-- test1 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testNGWebDriver.LoginTest@1205bd62]" started-at="2022-06-12T14:39:25Z" name="tearDown" finished-at="2022-06-12T14:39:25Z" duration-ms="249" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- HomeLoanTest1 -->
-        <test-method is-config="true" signature="BeforeMethod1()[pri:0, instance:testNG.LoanTestCases@490caf5f]" started-at="2022-06-11T17:09:26Z" name="BeforeMethod1" finished-at="2022-06-11T17:09:26Z" duration-ms="0" status="PASS">
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUP()[pri:0, instance:testNGWebDriver.LoginTest@1205bd62]" started-at="2022-06-12T14:39:25Z" name="setUP" finished-at="2022-06-12T14:39:30Z" duration-ms="4698" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- BeforeMethod1 -->
-        <test-method is-config="true" signature="AfterMethod1()[pri:0, instance:testNG.LoanTestCases@490caf5f]" started-at="2022-06-11T17:09:26Z" name="AfterMethod1" finished-at="2022-06-11T17:09:26Z" duration-ms="0" status="PASS">
+        </test-method> <!-- setUP -->
+        <test-method signature="test2()[pri:0, instance:testNGWebDriver.LoginTest@1205bd62]" started-at="2022-06-12T14:39:30Z" name="test2" finished-at="2022-06-12T14:39:41Z" duration-ms="11287" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- AfterMethod1 -->
-        <test-method is-config="true" signature="AfterTest1()[pri:0, instance:testNG.LoanTestCases@490caf5f]" started-at="2022-06-11T17:09:26Z" name="AfterTest1" finished-at="2022-06-11T17:09:26Z" duration-ms="1" status="PASS">
+        </test-method> <!-- test2 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testNGWebDriver.LoginTest@1205bd62]" started-at="2022-06-12T14:39:41Z" name="tearDown" finished-at="2022-06-12T14:39:41Z" duration-ms="217" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- AfterTest1 -->
-      </class> <!-- testNG.LoanTestCases -->
+        </test-method> <!-- tearDown -->
+      </class> <!-- testNGWebDriver.LoginTest -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

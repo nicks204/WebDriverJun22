@@ -10,7 +10,7 @@ pipeline {
         stage('Preparation') {
             steps {
                 // Get some code from a GitHub repository
-                git 'https://github.com/nicks204/WebDriverJun22.git'
+               git branch: 'master', url: 'https://github.com/nicks204/WebDriverJun22.git'
 
             }
         }
